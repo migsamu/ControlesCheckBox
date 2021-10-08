@@ -1,7 +1,6 @@
 package org.iesfm.controlescheckbox;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         tbActivcion.setTextOff("Desactivado");
         tbActivcion.setTextOn("Activado");
-        tbActivcion.setChecked(true);
+        tbActivcion.setChecked(false);
 
         TextView tvPrueba = (TextView) findViewById(R.id.tvPrueba);
         tvPrueba.setVisibility(View.INVISIBLE);
